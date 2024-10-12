@@ -1,0 +1,32 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select, a {
+  font: inherit;
+  color: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* #root, #__next {
+  isolation: isolate;
+} */
+ /* The last option is used to use it in a framework environment on a core element of the app
+ so it's commented by default and probably should be renamed to the root element of used framework */
