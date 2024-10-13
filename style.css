@@ -31,7 +31,7 @@
   --very-big-font-size: 5.625rem;
   /* Layout */
   --max-container-width: 75rem;
-  --min-page-width: 370px;
+  --min-page-width: 320px;
 
   --medium-breakpoint: 62.5rem;
   --small-breakpoint: 43.75rem;
@@ -48,6 +48,11 @@ body {
 
 a {
   text-decoration: none;
+  transition: opacity .2s ease-in-out;
+}
+a:hover,
+a:focus {
+  opacity: .7;
 }
 
 h1 {
@@ -90,7 +95,6 @@ h1 {
   right: 0;
   top: 10px;
 
-  /* margin-right: 3%; */
   padding: 0;
 
   width: 3em;
@@ -102,7 +106,7 @@ h1 {
   background-color: var(--dark-color);
   color: var(--light-color);
 
-  transition: opacity .5s ease;
+  transition: .1s ease;
 
   cursor: pointer;
 }
@@ -167,7 +171,11 @@ nav {
   opacity: 0;
   height: 0;
 
-  transition: .5s ease-in-out;
+  overflow: hidden;
+
+  transition: all .7s;
+
+  margin-top: 0;
 }
 
 .page__header input:checked + nav {
@@ -177,7 +185,6 @@ nav {
   visibility: visible;
   height: 15rem;
   position: relative;
-  transition: .5s ease-in-out;
 }
 
 nav > ul  {
@@ -197,7 +204,7 @@ nav > ul > li {
 
 .main__header__title {
   font-family: var(--bold-font);
-  font-size: calc(var(--very-big-font-size) - 1em);
+  font-size: calc(var(--very-big-font-size) - 1.5em);
   color: white;
 
   margin-bottom: .5em;
@@ -290,7 +297,7 @@ footer {
 
   font-size: calc(var(--very-small-font-size) - 10%);
 }
-footer li,
+footer a,
 footer p {
   opacity: .4
 }
@@ -340,6 +347,8 @@ footer > .container {
 @media (min-width: 700px) {
   .main__header__title {
     width: 80%;
+
+    font-size: calc(var(--very-big-font-size) - 1em);
   }
 
    .main__header__text {
@@ -400,6 +409,8 @@ footer > .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    padding-block: 2rem;
   }
   .logo {
     margin-inline: 0;
@@ -427,6 +438,7 @@ footer > .container {
   }
   nav > ul > li {
     margin-bottom: 0;
+    margin-left: 2rem;
   }
 
 
@@ -507,7 +519,7 @@ footer > .container {
   }
 
   /* Center the nav */ 
-  /* nav {
+  nav {
     width: 100%;
   }
 
@@ -517,5 +529,5 @@ footer > .container {
 
   .nav__list--primary {
     margin-inline: auto;
-  } */
+  }
 }
