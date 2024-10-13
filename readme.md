@@ -1,4 +1,4 @@
-# Conquered Responsive Layout.
+# Conquered Responsive Layout!
 
 This is my [solution](https://caplexw.github.io/Responsive-layout-the-final-challenge/) for a final challenge of Kevin Powell's course [Conquering Responsive Layouts](https://courses.kevinpowell.co/conquering-responsive-layouts). It's a very simple web-site the main point of which was to gather all the knowledge from the all the lessons of the cours and build the site from design-pdf file with some additional conditions and make it responsive across all the screen sizes from 320 to 1920 px. 
 
