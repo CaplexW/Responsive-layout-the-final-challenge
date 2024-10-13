@@ -37,6 +37,10 @@
   --small-breakpoint: 43.75rem;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--regular-font);
   font-size: var(--regular-font-size);
