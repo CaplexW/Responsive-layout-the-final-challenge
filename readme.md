@@ -14,4 +14,5 @@ I Highly recommend this [course](https://courses.kevinpowell.co/conquering-respo
 
 #### Links
 Fontendmentor - [Caplex](https://www.frontendmentor.io/profile/CaplexW)
+
 Course - [Conquering Responsive Layouts](https://courses.kevinpowell.co/conquering-responsive-layouts)
