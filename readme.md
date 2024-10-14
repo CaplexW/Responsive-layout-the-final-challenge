@@ -10,7 +10,7 @@ This is my [solution](https://caplexw.github.io/Responsive-layout-the-final-chal
 - Mobile-first approach
 
 ### Useful resources
-I Highly this [course](https://courses.kevinpowell.co/conquering-responsive-layouts) for it's good quality content, especially if you struggle with CSS and don't really know what to do with it. This course not olny gave me more understanding of CSS and responsive design, it also gave you more deep understanding what I don't understand about CSS where to go next to improve my skills.
+I Highly recommend this [course](https://courses.kevinpowell.co/conquering-responsive-layouts) for it's good quality content, especially if you struggle with CSS and don't really know what to do with it. This course not olny gave me more understanding of CSS and responsive design, it also gave you more deep understanding what I don't understand about CSS where to go next to improve my skills.
 
 #### Links
 Fontendmentor - [Caplex](https://www.frontendmentor.io/profile/CaplexW)
